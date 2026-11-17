@@ -1,0 +1,28 @@
+{
+  "name": "bab-al-hara-quiz",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "start": "node .output/server/index.mjs",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "db:migrate": "node --env-file-if-exists=.env scripts/migrate.mjs",
+    "icons": "pwa-assets-generator"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.1",
+    "@vite-pwa/nuxt": "^2.0.1",
+    "nuxt": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vite-pwa/assets-generator": "^2.0.0",
+    "typescript": "^6.0.3",
+    "vue-tsc": "^3.3.14"
+  }
+}

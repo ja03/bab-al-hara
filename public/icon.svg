@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#1c2238"/>
+  <defs>
+    <clipPath id="arch"><path d="M96 200a160 160 0 0 1 320 0v312H96z"/></clipPath>
+    <pattern id="ablaq" width="512" height="56" patternUnits="userSpaceOnUse">
+      <rect width="512" height="28" fill="#ebe2cf"/>
+      <rect y="28" width="512" height="28" fill="#2c2b2f"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#arch)">
+    <rect x="96" y="40" width="320" height="472" fill="url(#ablaq)"/>
+    <rect x="144" y="200" width="224" height="312" fill="#5b3a21"/>
+    <rect x="253" y="200" width="6" height="312" fill="#3b2416"/>
+    <g fill="#d9a441">
+      <circle cx="184" cy="250" r="8"/><circle cx="224" cy="250" r="8"/><circle cx="288" cy="250" r="8"/><circle cx="328" cy="250" r="8"/>
+      <circle cx="184" cy="330" r="8"/><circle cx="224" cy="330" r="8"/><circle cx="288" cy="330" r="8"/><circle cx="328" cy="330" r="8"/>
+      <circle cx="184" cy="410" r="8"/><circle cx="224" cy="410" r="8"/><circle cx="288" cy="410" r="8"/><circle cx="328" cy="410" r="8"/>
+    </g>
+    <g fill="none" stroke="#d9a441" stroke-width="7">
+      <circle cx="236" cy="370" r="13"/><circle cx="276" cy="370" r="13"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+# Render Blueprint: New → Blueprint → pick this repo.
+# Render asks for NUXT_DATABASE_URL on first deploy (sync: false keeps it out of git).
+services:
+  - type: web
+    name: bab-al-hara-quiz
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build && npm run db:migrate
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: NUXT_DATABASE_URL
+        sync: false
