@@ -1,0 +1,93 @@
+{
+  "title": { "ar": "مين إنت من شخصيات باب الحارة؟", "en": "Which Bab Al-Hara character are you?" },
+  "questions": [
+    {
+      "id": "q1",
+      "ar": "حدا قطع الدور عليك عالفرن. شو بتعمل؟",
+      "en": "Someone cuts in line at the bakery. What do you do?",
+      "options": [
+        { "id": "a", "ar": "بحكي معه بهدوء وبفهّمه إنه في دور", "en": "Calmly explain there's a line", "leans": ["abu_issam"] },
+        { "id": "b", "ar": "بوقف قدّامه وبرجّعه لآخر الدور", "en": "Step in front and send him to the back", "leans": ["abu_shehab", "motaz"] },
+        { "id": "c", "ar": "بسكت هلّق، بس كل الحارة رح تعرف بعدين", "en": "Stay quiet now, but the whole neighborhood will hear about it", "leans": ["um_zaki", "abu_ghaleb"] },
+        { "id": "d", "ar": "خلص مش مستاهلة، بستنّى", "en": "Not worth it, I'll wait", "leans": ["issam", "abu_badr"] }
+      ]
+    },
+    {
+      "id": "q2",
+      "ar": "صحابك تخانقوا بالجروب. إنت؟",
+      "en": "Your friends are fighting in the group chat. You?",
+      "options": [
+        { "id": "a", "ar": "بدخل بيناتهم وبصالحهم", "en": "Step in and make peace", "leans": ["abu_issam", "issam"] },
+        { "id": "b", "ar": "فوراً مع صاحبي، ظالم أو مظلوم", "en": "Instantly on my friend's side, right or wrong", "leans": ["motaz", "abu_alnar"] },
+        { "id": "c", "ar": "سكرين شوت وببعتها عالخاص", "en": "Screenshot it and send it privately", "leans": ["um_zaki", "ferial"] },
+        { "id": "d", "ar": "بعمل ميوت وببعت ميم", "en": "Mute it and send a meme", "leans": ["abu_badr"] }
+      ]
+    },
+    {
+      "id": "q3",
+      "ar": "فريقك خسر بمسابقة. ردّة فعلك؟",
+      "en": "Your team lost a competition. Your reaction?",
+      "options": [
+        { "id": "a", "ar": "ببارك للفريق التاني بكل روح رياضية", "en": "Congratulate the other team, good sport", "leans": ["abu_issam"] },
+        { "id": "b", "ar": "بدي إعادة، هلّق!", "en": "I want a rematch. Now!", "leans": ["abu_alnar", "motaz"] },
+        { "id": "c", "ar": "الحكم مرتشي، وما رح أنسى", "en": "The referee was bought, and I won't forget it", "leans": ["abu_ghaleb"] },
+        { "id": "d", "ar": "أصلاً حكيتلهم من الأول شو الغلط", "en": "I told them what they were doing wrong from the start", "leans": ["souad", "ferial"] }
+      ]
+    },
+    {
+      "id": "q4",
+      "ar": "بمشروع جماعي، إنت مين؟",
+      "en": "In a group project, which one are you?",
+      "options": [
+        { "id": "a", "ar": "اللي بيمسك القيادة وبيتحمّل المسؤولية", "en": "The one who leads and takes responsibility", "leans": ["abu_shehab"] },
+        { "id": "b", "ar": "اللي بيعرف مين عامل شو، وأخبار الكل", "en": "The one who knows who's doing what, and everyone's news", "leans": ["um_zaki"] },
+        { "id": "c", "ar": "اللي بيعمل اللي بينطلب منه وبس", "en": "The one who does what they're told, nothing more", "leans": ["abu_badr", "issam"] },
+        { "id": "d", "ar": "اللي ما عاجبه الخطة وبيقولها بصوت عالي", "en": "The one who disagrees with the plan and says it out loud", "leans": ["souad"] }
+      ]
+    },
+    {
+      "id": "q5",
+      "ar": "حدا غلط عليك قدام الناس. شو بتعمل؟",
+      "en": "Someone insults you in front of people. What do you do?",
+      "options": [
+        { "id": "a", "ar": "بسامح، الدنيا ما بتستاهل", "en": "Forgive, life's too short", "leans": ["abu_issam", "issam"] },
+        { "id": "b", "ar": "بردّ عليه فوراً وبكلمة وحدة بسكّته", "en": "Answer immediately, one sharp line shuts him up", "leans": ["souad", "motaz"] },
+        { "id": "c", "ar": "بضحك بوجهه… وبخطط", "en": "Smile at him… and start planning", "leans": ["abu_ghaleb", "ferial"] },
+        { "id": "d", "ar": "بعليّ صوتي وبتصير حرب بين الحارتين", "en": "Raise my voice and it becomes a war between neighborhoods", "leans": ["abu_alnar"] }
+      ]
+    },
+    {
+      "id": "q6",
+      "ar": "يوم الجمعة، شو خطتك؟",
+      "en": "It's Friday. What's your plan?",
+      "options": [
+        { "id": "a", "ar": "أنا اللي بقرر الخطة للكل", "en": "I decide the plan for everyone", "leans": ["ferial"] },
+        { "id": "b", "ar": "زيارات وقهوة وآخر الأخبار", "en": "Visits, coffee and catching up on all the news", "leans": ["um_zaki"] },
+        { "id": "c", "ar": "نوم للعصر", "en": "Sleep until the afternoon", "leans": ["abu_badr"] },
+        { "id": "d", "ar": "مباراة مع الشباب، ولازم نربح", "en": "A match with the guys, and we have to win", "leans": ["abu_alnar", "motaz"] }
+      ]
+    },
+    {
+      "id": "q7",
+      "ar": "صاحبك حكالك سر. السر عندك…",
+      "en": "Your friend told you a secret. With you, the secret is…",
+      "options": [
+        { "id": "a", "ar": "بالبير، ولو على قطع راسي", "en": "Buried forever, no matter what", "leans": ["abu_shehab"] },
+        { "id": "b", "ar": "بأمان… تقريباً", "en": "Safe… mostly", "leans": ["um_zaki"] },
+        { "id": "c", "ar": "محفوظ، لوقت الحاجة", "en": "Saved, for when I need it", "leans": ["abu_ghaleb"] },
+        { "id": "d", "ar": "بأمان، بس رح أقوله رأيي فيه بصراحة", "en": "Safe, but I'll tell them honestly what I think about it", "leans": ["souad"] }
+      ]
+    },
+    {
+      "id": "q8",
+      "ar": "لو عندك قوة خارقة وحدة، بتكون؟",
+      "en": "If you had one superpower, it would be…",
+      "options": [
+        { "id": "a", "ar": "الحكمة، الكل بيجي ياخد رأيي", "en": "Wisdom, everyone comes to me for advice", "leans": ["abu_issam"] },
+        { "id": "b", "ar": "القوة والشجاعة", "en": "Strength and courage", "leans": ["abu_shehab"] },
+        { "id": "c", "ar": "الكل بيحبني", "en": "Everyone likes me", "leans": ["issam"] },
+        { "id": "d", "ar": "بضحّك أي حدا", "en": "I can make anyone laugh", "leans": ["abu_badr"] }
+      ]
+    }
+  ]
+}
